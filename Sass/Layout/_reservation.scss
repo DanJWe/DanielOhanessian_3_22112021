@@ -1,0 +1,57 @@
+.reservation-ville{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #EAEAEA;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    box-shadow: inset 0px 6px 6px -6px #888;
+
+}
+
+.reservation-ville-logo{
+    position: relative;
+    right: 15px;
+}
+
+.reservation-text{
+    background-color: #F6F6F6;
+}
+
+h1{
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+    padding-left:50px;
+    padding-right: 50px;
+    
+}
+
+.reservation-text p{
+    text-align: center;
+    padding-left:10px;
+    padding-right: 10px;
+    
+}
+
+.reservation-text-bouton{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.reservation-text-bouton-linear-gradient{
+    background: linear-gradient(to bottom right, #FF79DA,#9356DC);
+    padding: 15px 25px;
+    border-style:none;
+    color: white;
+    font-size: 12px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px #888;
+    font-weight: bold;
+    cursor: pointer;
+
+}

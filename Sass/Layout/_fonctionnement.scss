@@ -1,0 +1,64 @@
+
+.fonctionnement{
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+.fonctionnement-container-bouton{
+    
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 15px;
+    border-style:none;
+    border-radius: 20px;
+    
+}
+
+.fonctionnement-container{
+    display: flex;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fonctionnement-bouton-logo{
+    color: white;
+    margin: auto;
+    font-size: 10px;
+}
+
+.fonctionnement-bouton-container{
+    background-color: #9356DC;
+    display: flex;
+    border-radius: 30px;
+    height:20px ;
+    width: 20px;
+    position: relative;
+    right: 27px;
+}
+
+
+
+.fa-mobile-alt{
+    position: relative;
+    right: 27px;
+}
+
+.fa-list-ul{
+    position: relative;
+    right: 27px;
+}
+.fa-store{
+    position: relative;
+    right: 27px;
+}
+
+.bouton-text-fonctionnement{
+    position: relative;
+    right: 27px;
+}
