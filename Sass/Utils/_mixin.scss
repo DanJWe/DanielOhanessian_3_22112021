@@ -1,3 +1,6 @@
+@use "../Utils/colors";
+
+
 @mixin linear_gradient_boutton{
     background: linear-gradient(to bottom right, #FF79DA,#9356DC);
 }
