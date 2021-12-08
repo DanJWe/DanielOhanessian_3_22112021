@@ -1,0 +1,142 @@
+@use "../Utils/animation";
+@use "../Utils/variables";
+@use "../Utils/mixin";
+
+
+.menu{
+    background-color: $light-grey;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    position: relative;
+    bottom: 50px; 
+}
+
+.menu__title{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+    position: relative;
+}
+
+.menu__txt{
+    padding: 0px;
+    font-family:'shrikhand','sans-serif';
+    font-weight: lighter;
+}
+
+hr{
+    margin-right: auto;
+    margin-left:0px;
+    width: 50px;
+    height: 5px;
+    background-color: $color-tertiaire;
+    border-style: none; 
+    margin-top:0px;
+    margin-bottom:0px; 
+}
+
+.menu__categorie{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 700px;
+}
+
+h3{
+    font-weight: lighter;
+    margin-bottom:5px;
+}
+
+.menu__container{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: $box-shadow;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    max-width: 700px;
+    &:hover{
+        .menu__check__animation{
+            transition: margin-right 0.5s;
+            margin-right: 0px; 
+        }
+        .fa-check-circle{
+            animation: rotation-check 0.7s ease;
+        }
+    }
+}
+
+.menu__container__description{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.menu__container__txt{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+}
+
+.menu__check__animation{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: $color-tertiaire;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: $box-shadow;
+    margin-right: -76px; 
+}
+
+.fa-check-circle{
+    font-size: 35px;
+    color: white;
+}
+
+.menu__price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__container__title{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.menu__price__txt{
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.menu__boutton__color{
+    @include linear_gradient_boutton;
+    padding: 20px 70px;
+    border-style:none;
+    color: white;
+    font-size: 12px;
+    border-radius: 30px;
+    box-shadow: $box-shadow;
+    font-weight:lighter ;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu__boutton{
+    text-align: center;
+    padding-top: 50px ;
+    padding-bottom: 20px;
+}

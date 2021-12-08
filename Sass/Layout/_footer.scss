@@ -1,8 +1,10 @@
+@use "../Utils/variables";
+
 footer{
-    background-color: #353535;
+    background-color: $color-footer;
 }
 
-.footer-container{
+.footer__container{
     width: 90%;
     margin: auto;
     color: white;
@@ -10,14 +12,14 @@ footer{
     padding-top: 10px;
 }
 
-.footer-font{
+.footer__title{
     font-family:'shrikhand','sans-serif';
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
 }
 
-.footer-container p{
+.footer__container p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -29,3 +31,4 @@ footer{
 .fa-hands-helping{
     padding-right: 11px;
 }
+

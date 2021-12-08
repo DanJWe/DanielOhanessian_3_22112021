@@ -1,3 +1,6 @@
+@use "../Utils/variables";
+
+
 html{
     font-family:'roboto','sans-serif'; 
     box-sizing: border-box;
@@ -6,16 +9,19 @@ html{
 
 body{
     margin: 0px;
-    background-color:#F6F6F6; ;
+    background-color: $light-grey;
 }
 
 a{
     text-decoration: none;
+    color: inherit;
+}
+i{
+    font-size: 20px;
 }
 
-.logo-client, .header-logo{
+.header__title{
     font-family:'shrikhand','sans-serif';
-
 }
 
 p{

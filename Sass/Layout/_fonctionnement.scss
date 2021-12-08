@@ -1,61 +1,71 @@
+@use "../Utils/variables";
+
 
 .fonctionnement{
     background-color: white;
     padding-bottom: 60px;
 }
 
-.fonctionnement-container-bouton{
-    
+.fonctionnement__boutton{
     width: 90%;
     margin: auto;
     padding: 20px;
     display: flex;
     justify-content: flex-start;
-    align-items: baseline;
+    align-items: center;
     gap: 15px;
-    border-style:none;
+    border-style: none;
     border-radius: 20px;
+    background-color: $light-grey;
+    cursor: pointer;
+    max-width: 400px;
+    box-shadow: $box-shadow;
+    &:hover{
+        background-color: lighten($color-primaire,30%);
+        .fonctionnement__icone__hover{
+             color: $color-primaire;
+        }
+    }
 }
 
-.fonctionnement-container{
+
+.fonctionnement__container{
     display: flex;
     gap: 15px;
-    display: flex;
     flex-direction: column;
-    
+    margin: auto;
+    @media screen and (min-width: 500px){
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
-.fonctionnement-bouton-logo{
+.fonctionnement__number{
     color: white;
     margin: auto;
-    font-size: 10px;
+    font-size: 12px;
 }
 
-.fonctionnement-bouton-container{
-    background-color: #9356DC;
+.fonctionnement__container__number{
+    background-color: $color-primaire;
     display: flex;
     border-radius: 30px;
-    height:20px ;
-    width: 20px;
+    height:30px ;
+    width: 30px;
+    position: relative;
+    right: 30px;
+}
+
+.fonctionnement__icone{
     position: relative;
     right: 27px;
 }
 
-.fa-mobile-alt{
-    position: relative;
-    right: 27px;
-}
 
-.fa-list-ul{
+.fonctionnement__bouton__text{
     position: relative;
     right: 27px;
-}
-.fa-store{
-    position: relative;
-    right: 27px;
-}
-
-.bouton-text-fonctionnement{
-    position: relative;
-    right: 27px;
+    font-size: 18px;
+    padding-left: 15px;
+    
 }
