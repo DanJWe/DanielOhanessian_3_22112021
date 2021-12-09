@@ -10,7 +10,7 @@
     right: 0%;
     opacity: 0;
     transition: all 200ms ease-in-out;
-    &:hover{
+    &:active{
       transform: scale(1.2);
       transform-origin: center;
       opacity: 1;
@@ -19,7 +19,7 @@
 }
 
 
-.menu__title:hover{
+.menu__title:hover, .menu__title:active{
   .icone__heart__color{
     transform: scale(1.2);
     transform-origin: center;

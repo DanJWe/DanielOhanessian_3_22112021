@@ -532,7 +532,7 @@ h3 {
   transition: all 200ms ease-in-out;
 }
 
-.icone__heart__color:hover {
+.icone__heart__color:active {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transform-origin: center;
@@ -541,7 +541,7 @@ h3 {
   cursor: pointer;
 }
 
-.menu__title:hover .icone__heart__color {
+.menu__title:hover .icone__heart__color, .menu__title:active .icone__heart__color {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transform-origin: center;
