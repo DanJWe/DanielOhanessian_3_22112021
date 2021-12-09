@@ -6,5 +6,5 @@
 }
 
 @mixin linear_gradient_icone{
-    background-image: linear-gradient($color-primaire, $color-secondaire);
+    background: linear-gradient($color-primaire, $color-secondaire);
 }
