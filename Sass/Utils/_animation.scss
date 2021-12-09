@@ -6,6 +6,7 @@
     @include linear_gradient_icone;
     color: transparent;
     background-clip: text;
+    -webkit-background-clip : text;
     position: absolute;
     right: 0%;
     opacity: 0;
