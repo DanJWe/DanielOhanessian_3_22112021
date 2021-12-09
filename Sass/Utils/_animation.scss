@@ -3,14 +3,14 @@
 
 
 .icone__heart__color{
-    @include linear_gradient-icone;
+    @include linear_gradient_icone;
     color: transparent;
     background-clip: text;
     position: absolute;
     right: 0%;
     opacity: 0;
     transition: all 200ms ease-in-out;
-    &:active{
+    &:hover{
       transform: scale(1.2);
       transform-origin: center;
       opacity: 1;
@@ -95,7 +95,7 @@
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    @include linear_gradient-icone;
+    @include linear_gradient_icone;
     animation-timing-function: cubic-bezier(0, 1, 1, 0);
   }
   .lds-ellipsis div:nth-child(1) {

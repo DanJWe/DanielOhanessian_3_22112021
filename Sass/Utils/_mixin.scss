@@ -5,6 +5,6 @@
     background: linear-gradient(to bottom right, $color-secondaire,$color-primaire);
 }
 
-@mixin linear_gradient-icone{
+@mixin linear_gradient_icone{
     background-image: linear-gradient($color-primaire, $color-secondaire);
 }
