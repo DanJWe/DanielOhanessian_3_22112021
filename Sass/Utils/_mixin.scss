@@ -1,8 +1,12 @@
-@use "../Utils/colors";
+@import "../Utils/colors";
 
 
 @mixin linear_gradient_boutton{
     background: linear-gradient(to bottom right, $color-secondaire,$color-primaire);
+}
+
+@mixin linear_gradient_boutton_light{
+    background: linear-gradient(to bottom right,(rgba(255, 121, 218, 0.9), rgba(147, 86, 220, 0.9)));
 }
 
 @mixin linear_gradient_icone{

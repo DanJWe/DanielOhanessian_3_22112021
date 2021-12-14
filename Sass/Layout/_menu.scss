@@ -1,6 +1,6 @@
-@use "../Utils/animation";
-@use "../Utils/colors";
-@use "../Utils/mixin";
+@import "../Utils/animation";
+@import "../Utils/colors";
+@import "../Utils/mixin";
 
 
 .menu{
@@ -133,6 +133,11 @@ h3{
     font-weight:lighter ;
     cursor: pointer;
     font-size: 20px;
+    transition: all 300ms ease-in-out;
+    &:hover{
+        @include linear_gradient_boutton_light;
+        box-shadow: 5px 5px 10px #888;
+    }
 }
 
 .menu__boutton{
